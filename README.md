@@ -78,6 +78,8 @@ This document outlines the comprehensive testing strategy implemented for the XB
 Before running the tests, make sure to install all dependencies:
 
 ```bash
+# Navigate to the tests directory
+$ cd tests
 # Install dependencies
 $ npm install
 ```

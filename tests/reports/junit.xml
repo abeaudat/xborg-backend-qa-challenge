@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="20" failures="0" errors="0" time="3.422">
+  <testsuite name="User Repository Integration Testing" errors="0" failures="0" skipped="0" timestamp="2025-03-29T03:12:29" time="0.877" tests="4">
+    <testcase classname="User Repository Integration Testing" name="should create and find user by id" time="0.003">
+    </testcase>
+    <testcase classname="User Repository Integration Testing" name="should create and find user by address" time="0">
+    </testcase>
+    <testcase classname="User Repository Integration Testing" name="should fail finding non-existent user" time="0.004">
+    </testcase>
+    <testcase classname="User Repository Integration Testing" name="should fail creating duplicate user" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="User Repository Unit Testing" errors="0" failures="0" skipped="0" timestamp="2025-03-29T03:12:29" time="0.934" tests="5">
+    <testcase classname="User Repository Unit Testing" name="should find user by id" time="0.015">
+    </testcase>
+    <testcase classname="User Repository Unit Testing" name="should find user by address" time="0.003">
+    </testcase>
+    <testcase classname="User Repository Unit Testing" name="should create new user" time="0.003">
+    </testcase>
+    <testcase classname="User Repository Unit Testing" name="should fail when user not found" time="0.009">
+    </testcase>
+    <testcase classname="User Repository Unit Testing" name="should fail when creating duplicate user" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="User Service Integration Testing" errors="0" failures="0" skipped="0" timestamp="2025-03-29T03:12:29" time="0.928" tests="2">
+    <testcase classname="User Service Integration Testing" name="should create new user successfully" time="0.004">
+    </testcase>
+    <testcase classname="User Service Integration Testing" name="should fail when creating user with existing address" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="User Service Unit Testing" errors="0" failures="0" skipped="0" timestamp="2025-03-29T03:12:29" time="0.784" tests="2">
+    <testcase classname="User Service Unit Testing" name="should create user successfully" time="0.009">
+    </testcase>
+    <testcase classname="User Service Unit Testing" name="should fail when repository throws error" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="User E2E Testing" errors="0" failures="0" skipped="0" timestamp="2025-03-29T03:12:29" time="1.604" tests="4">
+    <testcase classname="User E2E Testing" name="should create new user" time="0.037">
+    </testcase>
+    <testcase classname="User E2E Testing" name="should get user by id" time="0.003">
+    </testcase>
+    <testcase classname="User E2E Testing" name="should get user by address" time="0.001">
+    </testcase>
+    <testcase classname="User E2E Testing" name="should fail creating duplicate user" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="User Controller Unit Testing" errors="0" failures="0" skipped="0" timestamp="2025-03-29T03:12:29" time="2.903" tests="3">
+    <testcase classname="User Controller Unit Testing" name="should get user by id" time="0.008">
+    </testcase>
+    <testcase classname="User Controller Unit Testing" name="should get user by address" time="0.002">
+    </testcase>
+    <testcase classname="User Controller Unit Testing" name="should create new user" time="0.003">
+    </testcase>
+  </testsuite>
+</testsuites>
